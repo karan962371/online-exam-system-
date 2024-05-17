@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    display: inline-flex;
+    width: 100%;
+    height: 100px;
+    background: #c9c4c5;
+    display: flex;
+}
+.navbar logo {
+    height: 100px;
+    width: 100px; 
+    margin-left: 4px;
+}
+.logo title h1{
+    display: flex;
+}
+.navbar h1{
+font-size: 25px;
+margin: 10px;
+color: rgb(223, 0, 0);
+display: flex;
+}
+.navbar .title p{
+    color: rgb(6, 4, 4);
+    margin: 25px;
+    font-size: 15px;
+    color: #000000;
+    
+}
+.navbar .list{
+    margin-top: 80px;
+    margin-left: 20px;
+    display: flex;
+}
+.navbar .list a{
+    color: rgb(66, 29, 29);
+    text-decoration: none;
+    font-size: 15px;
+    margin: 9px;
+}
+.navbar .list a :hover{
+    color: red;
+}
+.main{
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.main h1{
+    color: #e7a525;
+}
+.main input{
+    outline:none;
+    padding: 2px;
+    height: 25px;
+    width: 300px;
+}
+.main button{
+    color: white;
+    background: red;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 20px;
+
+}
+.main a{
+    text-decoration: none;
+}
+select{
+  font-size: 15px;
+}
+
+.main h1{
+    color: #e7a525;
+}
+.main input{
+    outline:none;
+    padding: 2px;
+    height: 25px;
+    width: 300px;
+}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .highlight {
+            background-color: #ffbdbd;
+            padding: 5px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #cb2146;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 16%;
+            opacity: 0.9;
+            margin-left: 670px;
+          }
+          
+          button:hover {
+            opacity: 1;
+          }

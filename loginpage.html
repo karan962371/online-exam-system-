@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="loginpage.css">
+</head>
+<body style="background-image: url('download.jpeg');">
+	<div class="container">
+		<h1>Login</h1>
+		<form action="login.php" method="post">
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+			<button type="submit" onclick="auth()">
+				Login</button>
+		</form>
+	</div>
+	<script>
+		function auth(){
+		var email = document.getElementById("username").value;
+		var pass = document.getElementById("password").value;
+		if( email == 'karandevadkar@gmail.com'  && pass == 'karan123'){
+			window.location.assign("join.html")
+		alert("success full !")
+	  }
+		else{
+			alert("wrong entry invalide")
+		}
+		  }
+	</script>
+</body>
+</html>
